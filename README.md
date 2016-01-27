@@ -1,7 +1,7 @@
 Narrative moment widget
 ===
 
-This widget lets you display a Narrative moment on your own site.
+This widget lets you display a Narrative Moment on your own site.
 
 Setup
 ---
@@ -16,7 +16,7 @@ First you need to register a Narrative Open Platform app.
 Usage
 ---
 
-Grap the UUID for the moment you want to display, it's the last part of a shared moment link. Looking something like this `4f0c241562a24bce86a9e24a009c845d`
+Grap the UUID for the Moment you want to display, it's the last part of a shared Moment link. Looking something like this `4f0c241562a24bce86a9e24a009c845d`
 
 
 Then add both the jquery plugin and the css file to your site. Lastly add the following to your html.
