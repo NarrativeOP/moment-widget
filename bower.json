@@ -1,0 +1,20 @@
+{
+  "name": "Narrative moment widget",
+  "homepage": "https://github.com/NarrativeOP/moment-widget",
+  "authors": [
+    "Johan Stenehall <johan@narrativeteam.com>"
+  ],
+  "description": "A small widget letting you include Narrative moments on your own site",
+  "main": "dist/jquery-nrtv-moment-widget.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=2.2.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
