@@ -1,4 +1,4 @@
-Narrative moment widget
+Narrative Moment Widget
 ===
 
 This widget lets you display a Narrative Moment on your own site.
@@ -24,7 +24,7 @@ Then add both the jquery plugin and the css file to your site. Lastly add the fo
 ```javascript
 var clientID = '<Your Client ID>';
 var clientSecret = '<Your Client Secret>';
-var momentUUID = '<The moments UUID you want to display, needs to be public>';
+var momentUUID = '<The Moments UUID you want to display, needs to be public>';
 $('#nrtv__current-photo').nrtvScrubb(momentUUID, clientID, clientSecret);
 ```
 
