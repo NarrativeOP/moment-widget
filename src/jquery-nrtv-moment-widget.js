@@ -71,7 +71,7 @@
       var self = this;
       self.getAnonymousToken(function(token) {
         $.ajax({
-          url: self.apiUrl + '/api/v2' + path,
+          url: self.apiUrl + 'api/v2' + path,
           beforeSend: function(request) {
             request.setRequestHeader('Authorization', 'Bearer '+token.access_token);
           }
@@ -129,7 +129,7 @@
         });
 
         $(nrtvElement).mousemove(function (event) {
-          var procent = Math.round(event.pageX / width * 1000) / 10;
+          var procent = Math.round(event.offsetX / width * 1000) / 10;
           var photoIndex = Math.round((photos.length-1) * (procent / 100));
           self.updateScrubb(photoIndex, photos);
         });

@@ -22,7 +22,7 @@ $nrtv-height: 480px;
   100% { transform: rotate(360deg) }
 }
 
-#nrtv__current-photo {
+.nrtv__moment {
   position: relative;
   cursor: pointer;
   margin: 0 auto;
