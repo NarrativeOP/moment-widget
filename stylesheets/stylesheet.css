@@ -1,6 +1,5 @@
 .highlight {
-  margin: 20px;
-
+  margin: 20px 0;
 }
 
 .highlight pre {
@@ -8,10 +7,12 @@
   overflow: auto;
   font-size: 0.9rem;
   line-height: 1.45;
-  border-radius: 0.3rem;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #567482;
   word-wrap: normal;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  background-color: #f2f2f2;
+}
+
+footer {
+  margin-top: 0 !important;
 }
